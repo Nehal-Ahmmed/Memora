@@ -7,6 +7,7 @@ import androidx.room.PrimaryKey
 data class LocalNote(
 @PrimaryKey
     val id: String,
-    val title: String,
-    val description: String
+    val title: String="",
+    val description: String="",
+    //val createdAt: Long = System.currentTimeMillis()  // Optional: Track creation time
 )

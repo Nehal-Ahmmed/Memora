@@ -1,4 +1,4 @@
-package com.nhbhuiyan.memora.presentation.ui.Screen
+package com.nhbhuiyan.memora.presentation.ui.Screen.splashScreen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background

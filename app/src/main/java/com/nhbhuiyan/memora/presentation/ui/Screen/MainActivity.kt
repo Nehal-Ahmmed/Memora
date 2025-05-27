@@ -6,7 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.rememberNavController
-import com.nhbhuiyan.memora.navigation.MemoraNavigation
+import com.nhbhuiyan.memora.navigation.navOld.MemoraNavigation
 import com.nhbhuiyan.memora.presentation.ui.theme.MemoraTheme
 
 class MainActivity : ComponentActivity() {

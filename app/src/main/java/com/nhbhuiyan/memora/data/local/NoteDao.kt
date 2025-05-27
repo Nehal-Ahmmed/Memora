@@ -1,6 +1,7 @@
 package com.nhbhuiyan.memora.data.local
 
 import androidx.room.Dao
+import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
@@ -17,6 +18,14 @@ interface NoteDao {
     @Update
     suspend fun updateNote(note: LocalNote)
 
-    @Query("delete from notes where id= :noteId")
-    suspend fun deleteNote(noteId: String)
+    @Delete
+    suspend fun deleteNote(note: LocalNote)
+
+    @Query("select * from notes where title like '%' || :query || '%' OR description like '%' || :query || '%' ")
+    fun searchNotes(query: String): Flow<List<LocalNote>>
+
+//    // Observe all notes (automatic updates)
+//    @Query("SELECT * FROM notes ORDER BY createdAt DESC")
+//    fun getAllNote(): Flow<List<LocalNote>>
+
 }
