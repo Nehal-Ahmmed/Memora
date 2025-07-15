@@ -20,9 +20,14 @@ is a minimalist note-taking Android application built with Kotlin, Jetpack Compo
 4. Search & Filter: Easily find notes by title or content.
 5. Dark/Light Theme: Supports system theme or manual selection.
 
+
+
 # Screenshots 📱
 
 //will be update soon
+
+
+<img src="https://github.com/user-attachments/assets/37b9b1f5-dc60-42d9-a492-13bdf6010113" width="100" alt="Memora App Screenshot">
 
 
 # Technologies Used 🛠️
