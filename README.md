@@ -40,8 +40,8 @@ Material Design 3: Follows the latest Material Design guidelines.
 Installation ⚙️
 Clone this repository:
 
-bash
-git clone https://github.com/your-username/memora.git
+git clone https://github.com/Nehal-Ahmmed/memora.git
+
 Open the project in Android Studio (latest version recommended).
 
 Build and run the app on an emulator or physical device.
