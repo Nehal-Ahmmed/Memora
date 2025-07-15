@@ -1,13 +1,13 @@
 Memora - Note-Taking App
 
-Memora is a minimalist note-taking Android application built with Kotlin, Jetpack Compose, and Room Database. Organize your thoughts, save important notes, and access them anytime with this intuitive app.
+# Memora 
+is a minimalist note-taking Android application built with Kotlin, Jetpack Compose, and Room Database. Organize your thoughts, save important notes, and access them anytime with this intuitive app.
 
-Features ✨
-Create & Manage Notes: Write, edit, and delete notes effortlessly.
+# Features ✨
 
-Room Database: All your notes are stored locally for secure and fast access.
-
-Multi-Page Navigation: Switch between different sections using the Bottom Navigation View:
+1. Create & Manage Notes: Write, edit, and delete notes effortlessly.
+2. Room Database: All your notes are stored locally for secure and fast access.
+3. Multi-Page Navigation: Switch between different sections using the Bottom Navigation View:
 
 📝 All Notes: View and manage all your notes.
 
@@ -17,45 +17,52 @@ Multi-Page Navigation: Switch between different sections using the Bottom Naviga
 
 ⚙️ Settings: Customize your app experience.
 
-Search & Filter: Easily find notes by title or content.
+4. Search & Filter: Easily find notes by title or content.
+5. Dark/Light Theme: Supports system theme or manual selection.
 
-Dark/Light Theme: Supports system theme or manual selection.
+# Screenshots 📱
 
-Screenshots 📱
 //will be update soon
 
-Technologies Used 🛠️
-Kotlin: Primary programming language.
 
-Jetpack Compose: Modern UI toolkit for Android.
+# Technologies Used 🛠️
 
-Room Database: Local persistence library for storing notes.
+-> Kotlin: Primary programming language.
 
-ViewModel & LiveData: Manage UI-related data in a lifecycle-aware way.
+-> Jetpack Compose: Modern UI toolkit for Android.
 
-Navigation Component: Handle navigation between screens.
+-> Room Database: Local persistence library for storing notes.
 
-Material Design 3: Follows the latest Material Design guidelines.
+-> ViewModel & LiveData: Manage UI-related data in a lifecycle-aware way.
 
-Installation ⚙️
-Clone this repository:
+-> Navigation Component: Handle navigation between screens.
+
+-> Material Design 3: Follows the latest Material Design guidelines.
+
+
+# Installation ⚙️
+
+-> Clone this repository:
+
 
 git clone https://github.com/Nehal-Ahmmed/memora.git
 
-Open the project in Android Studio (latest version recommended).
+-> Open the project in Android Studio (latest version recommended).
 
-Build and run the app on an emulator or physical device.
+-> Build and run the app on an emulator or physical device.
 
-How to Use 📲
-Create a Note: Tap the "+" button to add a new note.
 
-Edit/Delete: Long-press a note to edit or delete it.
+# How to Use 📲
+-> Create a Note: Tap the "+" button to add a new note.
 
-Mark as Favorite/Bookmark: Use the star or bookmark icon to save important notes.
+-> Edit/Delete: Long-press a note to edit or delete it.
 
-Switch Sections: Use the bottom navigation bar to move between All Notes, Favorites, Bookmarks, and Settings.
+-> Mark as Favorite/Bookmark: Use the star or bookmark icon to save important notes.
 
-Future Enhancements 🚀
+-> Switch Sections: Use the bottom navigation bar to move between All Notes, Favorites, Bookmarks, and Settings.
+
+
+# Future Enhancements 🚀
 🔄 Sync with Cloud: Backup notes using Firebase or other cloud services.
 
 📂 Categories/Tags: Organize notes into folders or tags.
@@ -63,3 +70,4 @@ Future Enhancements 🚀
 🎨 Custom Themes: More color options for personalization.
 
 📤 Export Notes: Save notes as PDF or text files
+
